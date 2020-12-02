@@ -9,4 +9,4 @@ const movieSchema = new Schema({
   watched: Boolean,
 });
 
-module.exports = mongoose.model('Movie', movieSchema, 'movies');
+module.exports = mongoose.model('Movie', movieSchema);
